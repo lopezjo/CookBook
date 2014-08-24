@@ -20,7 +20,6 @@ Once you download the zip file above, extract it to sub-folder:
 	./UCI HAR Dataset
 
 Where the parent folder is the working directory in R. 
-
 For example, if your folder hierarchy looks like:
 
 	C:\data_science\project\UCI HAR Dataset
