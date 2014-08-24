@@ -30,5 +30,29 @@ Then use:
 
 
 ## Execution
+Running the project is done by loading the source file and executing
+the function run_analysis(). This is done by:
 
+	source("[path]/run_analysis.R")
 
+Where [path] includes the full or partial path needed to find run_analysis.R.
+
+For example, if run_analysis.R is found at:
+
+	C:\data_science\github\CookBook 
+
+Then use:
+
+	source("C:/data_science/github/CookBook/run_analysis.R")
+
+Once the source file is loaded, run the script as follows:
+
+	run_analysis()
+
+## Complete Sample Execution
+Sample steps to execute script using example environment described above
+that happens to match my folder hierarchy.
+
+	setwd("C:/data_science/project")
+	source("C:/data_science/github/CookBook/run_analysis.R")
+	run_analysis()
