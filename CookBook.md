@@ -35,8 +35,8 @@ listed in features.txt. As such, that is what I have done and the tidy data set 
 to the originating variable names and avoids confusion. 
 
 ## Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
-A file named tidy.txt is created in the working folder via write.table(). This file can 
-be read back in via read.table().
+A file named tidy.txt is created in the working folder via write.table() with row.name=FALSE. 
+This file can be read back in via read.table().
 
 For example,
 

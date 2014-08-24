@@ -43,6 +43,6 @@ run_analysis <- function()
 	test_data <- get_dataset(data_folder, "test")
     
     all_data <- rbind(training_data, test_data)
-    write.table(all_data, "tidy.txt")
+    write.table(all_data, "tidy.txt", row.name=FALSE)
     all_data
 }
